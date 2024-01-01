@@ -24,7 +24,7 @@ const Header1 = () => {
       <Image src={'/logo.png'} alt='logo' width={200} height={200} className='w-28 h-28' />
       <div className=' border-r-2 border-gray-300 h-full flex'>
 
-     {TitleAndPara.map((item)=><Block title={item.title} para={item.para} />)}
+     {TitleAndPara.map((item)=><Block key={item.title} title={item.title}  para={item.para} />)}
      <div className='flex items-center px-3'>
      <Image src={"/demo.svg"} alt='demo' width={200} height={200} className='w-10 h-10 rounded-full mr-5'/>
      <h3 className='font-bold'>Login / Signup</h3>
