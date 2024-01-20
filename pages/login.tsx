@@ -29,7 +29,7 @@ const Login = () => {
             <p className=" flex h-10 bg-gradient-to-r from-red-400 to bg-red-500 px-10  items-center text-white font-bold">
               Sign up & Get ₹500 OYO Money
             </p>
-            <div className="px-10">
+            <div className="px-10 ">
               <h3 className="text-5xl font-bold my-5">Login / Signup</h3>
               <p className="text-lg font-bold mb-1">
                 Please enter your email to continue

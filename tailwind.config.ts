@@ -11,6 +11,9 @@ const config: Config = {
       backgroundImage: {
         "login-background": 'url("/background.avif")',
       },
+      height: {
+        "large-box": "325px",
+      },
     },
   },
   plugins: [],
